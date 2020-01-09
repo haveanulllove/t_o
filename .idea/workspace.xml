@@ -1,24 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4ad5245-c0c1-4e58-b0e3-c4a4586801c1" name="Default Changelist" comment="" />
+    <list default="true" id="c4ad5245-c0c1-4e58-b0e3-c4a4586801c1" name="Default Changelist" comment="config包完成">
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/config/MyAccessDecisionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/config/MyFilterSecurityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/config/MyInvocationSecurityMetadataSourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/entity/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/demo/service/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/templates/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/templates/user/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/templates/user/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/test/java/com/security/demo/SecurityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/SecurityApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/config/MyAccessDecisionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/config/MyFilterSecurityInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/config/MyInvocationSecurityMetadataSourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/config/SecurityConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/entity/RolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/mapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/classes/com/security/demo/service/MyUserDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/target/test-classes/com/security/demo/SecurityApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/src/main/java/com/tri_oranges/serviceclient/ServiceclientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceclient/src/test/java/com/tri_oranges/serviceclient/ServiceclientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/src/main/java/com/zyw/to/ToApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/src/main/java/com/zyw/to/entity/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/src/test/java/com/zyw/to/ToApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/target/classes/com/zyw/to/ToApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/target/classes/com/zyw/to/UserLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to/target/test-classes/com/zyw/to/ToApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IdeaJava\t_o\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1W1I0aQkmfsqp2zcYcGIIYfrdyC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Day1230" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SecurityApplication">
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.security.demo.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="serviceclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tri_oranges.serviceclient.ServiceclientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="to" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zyw.to.ToApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -32,8 +179,12 @@
       </list>
     </option>
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\巍巍爱天天\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,14 +193,113 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578310451236</updated>
-      <workItem from="1578310456028" duration="2000" />
+      <workItem from="1578310456028" duration="461000" />
+      <workItem from="1578310966245" duration="341000" />
+      <workItem from="1578383418512" duration="7754000" />
+      <workItem from="1578461894345" duration="8869000" />
+      <workItem from="1578477744809" duration="3343000" />
+      <workItem from="1578495162777" duration="4733000" />
+      <workItem from="1578500047038" duration="760000" />
+      <workItem from="1578543445701" duration="8602000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="config包完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="config包完成" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1578310470671">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1578310805278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578310470671" />
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578310805278" />
+    <state x="223" y="66" width="1164" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578549192865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="66" width="1164" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578549192865" />
+    <state x="958" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1578499361339">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578499361339" />
+    <state x="708" y="0" key="CommitChangelistDialog2" timestamp="1578501779442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="708" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578501779442" />
+    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1578552658806">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578552658806" />
+    <state x="615" y="320" key="Github.Dialog.Accounts.Choose" timestamp="1578310582760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="615" y="320" key="Github.Dialog.Accounts.Choose/0.0.1536.824@0.0.1536.824" timestamp="1578310582760" />
+    <state x="490" y="283" width="428" height="254" key="Github.ShareDialog" timestamp="1578310569988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="283" width="428" height="254" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1578310569988" />
+    <state x="630" y="28" key="Github.UntrackedFilesDialog" timestamp="1578310576036">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="630" y="28" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578310576036" />
+    <state width="1493" height="479" key="GridCell.Tab.0.bottom" timestamp="1578554071508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578554071508" />
+    <state width="1493" height="479" key="GridCell.Tab.0.center" timestamp="1578554071508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578554071508" />
+    <state width="1493" height="479" key="GridCell.Tab.0.left" timestamp="1578554071508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578554071508" />
+    <state width="1493" height="479" key="GridCell.Tab.0.right" timestamp="1578554071508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578554071508" />
+    <state width="1493" height="479" key="GridCell.Tab.1.bottom" timestamp="1578554071509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578554071509" />
+    <state width="1493" height="479" key="GridCell.Tab.1.center" timestamp="1578554071509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578554071509" />
+    <state width="1493" height="479" key="GridCell.Tab.1.left" timestamp="1578554071509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578554071509" />
+    <state width="1493" height="479" key="GridCell.Tab.1.right" timestamp="1578554071509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="479" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578554071509" />
+    <state x="299" y="66" key="Maven.ArtifactSearchDialog" timestamp="1578551797475">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="66" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1578551797474" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1578501683914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578501683914" />
+    <state x="561" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578384602167">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="323" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1578384602167" />
+    <state x="821" y="155" width="662" height="520" key="find.popup" timestamp="1578544498022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="821" y="155" width="662" height="520" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578544498022" />
+    <state x="15" y="67" key="new project wizard" timestamp="1578472109715">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="15" y="67" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578472109715" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1578549783211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578549783211" />
   </component>
 </project>
